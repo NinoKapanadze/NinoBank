@@ -35,7 +35,7 @@ namespace NinoBank.Application.Users.Commands.Register
             {
                 var errorMessages = result.Errors.Select(e => e.Description).Aggregate((current, next) => current + "; " + next);
 
-                return ResultWrapper<RegisterUserDTO>.InternalServerError(errorMessages);
+                return ResultWrapper<RegisterUserDTO>.BadRequest(errorMessages);
             }
 
             var registerUserDTO = _mapper.Map<RegisterUserDTO>(user);

@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "NinoBank.WebApi.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NinoBank.WebApi.Models.DeleteUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NinoBank.WebApi.Controllers.UserController",
     "Method": "Resgister",
     "RelativePath": "api/User/Register",
     "HttpMethod": "POST",

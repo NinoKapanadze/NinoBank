@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using NinoBank.Application.Users.Commands.Delete;
 using NinoBank.Application.Users.Commands.Register;
 using NinoBank.WebApi.Models;
 
@@ -9,6 +10,7 @@ namespace NinoBank.WebApi.Mapping
         public MappingProfiles()
         {
             CreateMap<RegisterModel, RegisterCommand>();
+            CreateMap<DeleteUserModel, DeleteUserCommand>();
         }
     }
 }

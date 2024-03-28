@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using NinoBank.Application.Users.Commands.Delete;
 using NinoBank.Application.Users.Commands.Register;
 using NinoBank.WebApi.Extensions;
 using NinoBank.WebApi.Models;
@@ -29,6 +30,16 @@ namespace NinoBank.WebApi.Controllers
             var result = await _mediator.Send(command);
 
             return StatusCode(result.OperationResult.ToHttpStatusCode(), result.IsSuccess? result.Value: result.FailureReason);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromBody]DeleteUserModel model)
+        {
+            var command = _mapper.Map<DeleteUserCommand>(model);
+
+            var result = await _mediator.Send(command);
+
+            return StatusCode(result.OperationResult.ToHttpStatusCode(), result.IsSuccess ? true : result.FailureReason);
         }
     }
 }

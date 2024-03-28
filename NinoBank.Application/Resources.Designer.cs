@@ -61,20 +61,20 @@ namespace NinoBank.Application {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to add a user.
-        /// </summary>
-        internal static string AddUserFail {
-            get {
-                return ResourceManager.GetString("AddUserFail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Internal server error.
         /// </summary>
         internal static string InternalServerError {
             get {
                 return ResourceManager.GetString("InternalServerError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User with this email does not exist.
+        /// </summary>
+        internal static string UserWithEmailDoesNotExist {
+            get {
+                return ResourceManager.GetString("UserWithEmailDoesNotExist", resourceCulture);
             }
         }
         
