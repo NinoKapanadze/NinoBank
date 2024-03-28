@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using NinoBank.Domain.Base;
 using NinoBank.Infrastructure.Data;
 using NinoBank.Infrastructure.Repositories.Base.Interfaces;
 using System;

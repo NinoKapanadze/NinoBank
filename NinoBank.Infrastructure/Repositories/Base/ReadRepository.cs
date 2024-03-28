@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NinoBank.Domain.Base;
 using NinoBank.Infrastructure.Data;
-using NinoBank.Infrastructure.Extensions;
 using NinoBank.Infrastructure.Repositories.Base.Interfaces;
 using System.Linq.Expressions;
 

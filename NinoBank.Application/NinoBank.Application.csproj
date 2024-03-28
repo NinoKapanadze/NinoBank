@@ -12,4 +12,8 @@
     <Folder Include="ResultWrappers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NinoBank.Infrastructure\NinoBank.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

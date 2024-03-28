@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinoBank.WebApi", "NinoBank.WebApi\NinoBank.WebApi.csproj", "{7167E6FD-35E6-413E-A848-57FBA61654F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinoBank.WebApi", "NinoBank.WebApi\NinoBank.WebApi.csproj", "{7167E6FD-35E6-413E-A848-57FBA61654F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B} = {59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinoBank.Infrastructure", "NinoBank.Infrastructure\NinoBank.Infrastructure.csproj", "{85223C00-C2FB-491B-A4FA-960B29857EAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinoBank.Infrastructure", "NinoBank.Infrastructure\NinoBank.Infrastructure.csproj", "{85223C00-C2FB-491B-A4FA-960B29857EAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinoBank.Domain", "NinoBank.Domain\NinoBank.Domain.csproj", "{F27A95FD-4FAA-4F05-A96B-09C158243E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinoBank.Domain", "NinoBank.Domain\NinoBank.Domain.csproj", "{F27A95FD-4FAA-4F05-A96B-09C158243E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinoBank.Application", "NinoBank.Application\NinoBank.Application.csproj", "{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinoBank.Application", "NinoBank.Application\NinoBank.Application.csproj", "{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43F6F6FD-CC2B-4F25-A872-67443CAEBA36}"
 EndProject

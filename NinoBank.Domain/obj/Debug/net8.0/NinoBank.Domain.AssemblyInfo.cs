@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NinoBank.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a5ab1cca85639d3db06f5b3900b9e635bb49421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f3c34bbcd038384df4bed87cbfcc94de60bfc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NinoBank.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NinoBank.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

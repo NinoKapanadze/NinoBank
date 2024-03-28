@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using NinoBank.Infrastructure.Data;
 
 namespace NinoBank.WebApi
 {
@@ -13,6 +15,11 @@ namespace NinoBank.WebApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString(nameof(ConnectionStrings.DefaultConnection))));
+
+            builder.Services.AddScoped<DbContext, DataContext>();
+
 
             var app = builder.Build();
 
