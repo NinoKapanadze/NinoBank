@@ -56,6 +56,7 @@ namespace NinoBank.Infrastructure.Repositories.Base
                 return null;
             }
         }
+
         public TEntity? Update(TEntity model)
         {
             try

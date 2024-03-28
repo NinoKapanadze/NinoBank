@@ -1,10 +1,5 @@
 ﻿using MediatR;
 using NinoBank.Application.ResultWrappers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NinoBank.Application.Users.Commands.Delete
 {

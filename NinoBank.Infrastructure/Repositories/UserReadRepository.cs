@@ -1,5 +1,4 @@
-﻿using NinoBank.Domain;
-using NinoBank.Domain.Entities;
+﻿using NinoBank.Domain.Entities;
 using NinoBank.Infrastructure.Data;
 using NinoBank.Infrastructure.Repositories.Base.Interfaces;
 

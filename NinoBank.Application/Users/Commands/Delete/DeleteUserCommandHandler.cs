@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
-using NinoBank.Application.Models;
 using NinoBank.Application.ResultWrappers;
 using NinoBank.Domain.Entities;
 
