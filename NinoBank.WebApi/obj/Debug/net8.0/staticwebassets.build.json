@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZipV5D3b6SKqvt4PVC2KMeowMBQ5iZMz7TRBVbevXpo=",
+  "Source": "NinoBank.WebApi",
+  "BasePath": "_content/NinoBank.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

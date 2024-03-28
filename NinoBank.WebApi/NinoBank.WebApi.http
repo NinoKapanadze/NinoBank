@@ -1,0 +1,6 @@
+@NinoBank.WebApi_HostAddress = http://localhost:5291
+
+GET {{NinoBank.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
