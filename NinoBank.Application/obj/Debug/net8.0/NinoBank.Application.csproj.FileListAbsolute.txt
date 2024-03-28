@@ -16,3 +16,5 @@ C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Application\obj\Debug\ne
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Application\obj\Debug\net8.0\refint\NinoBank.Application.dll
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Application\obj\Debug\net8.0\NinoBank.Application.pdb
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Application\obj\Debug\net8.0\ref\NinoBank.Application.dll
+C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Application\obj\Debug\net8.0\NinoBank.Application.Resources.resources
+C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Application\obj\Debug\net8.0\NinoBank.Application.csproj.GenerateResource.cache

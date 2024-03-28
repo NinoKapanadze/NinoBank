@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "NinoBank.WebApi.Controllers.UserController",
+    "Method": "Resgister",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerModel",
+        "Type": "NinoBank.WebApi.Models.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
