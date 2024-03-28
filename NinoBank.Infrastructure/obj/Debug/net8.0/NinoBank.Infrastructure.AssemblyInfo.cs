@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NinoBank.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a5ab1cca85639d3db06f5b3900b9e635bb49421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68772760f9dc08f2e9a9750baa63829c4ebf930f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NinoBank.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NinoBank.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
