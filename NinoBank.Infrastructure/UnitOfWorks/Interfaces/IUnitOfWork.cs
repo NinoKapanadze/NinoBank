@@ -1,6 +1,6 @@
 ﻿using NinoBank.Infrastructure.Repositories.Base.Interfaces;
 
-namespace NinoBank.Infrastructure.UnitOfWork.Interfaces
+namespace NinoBank.Infrastructure.UnitOfWorks.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

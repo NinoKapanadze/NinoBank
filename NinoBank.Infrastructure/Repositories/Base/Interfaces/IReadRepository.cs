@@ -27,7 +27,7 @@ namespace NinoBank.Infrastructure.Repositories.Base.Interfaces
         /// </summary>
         /// <param name="predicate">The predicate to filter entities.</param>
         /// <returns>The first entity that satisfies the predicate, or null if not found.</returns>
-        Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> predicate);
+        Task<TEntity?> GetSingleAsync(Expression<Func<TEntity, bool>> predicate);
 
         /// <summary>
         /// Checks if any entity in the repository satisfies a given predicate.

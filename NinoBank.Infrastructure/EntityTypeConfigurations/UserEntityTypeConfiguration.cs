@@ -19,8 +19,8 @@ namespace NinoBank.Infrastructure.EntityTypeConfigurations
                    .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasMany(u => u.RecievedTransactions)
-                   .WithOne(t => t.Reciever)
-                   .HasForeignKey(t => t.RecieverId)
+                   .WithOne(t => t.Receiver)
+                   .HasForeignKey(t => t.ReceiverId)
                    .OnDelete(DeleteBehavior.Restrict);
 
             builder.Property(u => u.Balance)

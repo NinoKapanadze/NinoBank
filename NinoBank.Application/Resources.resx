@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="IncorrectId" xml:space="preserve">
+    <value>User with this ID does not exist</value>
+  </data>
   <data name="InternalServerError" xml:space="preserve">
     <value>Internal server error</value>
+  </data>
+  <data name="NotEnoughFundsForTransaction" xml:space="preserve">
+    <value>Sender does not have enough funds on balance</value>
   </data>
   <data name="UserWithEmailDoesNotExist" xml:space="preserve">
     <value>User with this email does not exist</value>

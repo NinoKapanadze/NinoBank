@@ -1,13 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using NinoBank.Infrastructure.Data;
 using NinoBank.Infrastructure.Repositories.Base.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NinoBank.Infrastructure.Repositories.Base
 {
@@ -26,48 +20,57 @@ namespace NinoBank.Infrastructure.Repositories.Base
             _dbSet = _dbContext.Set<TEntity>();
         }
 
-        public async Task<TEntity?> AddAsync(TEntity model)
+        public bool Delete(TEntity entity)
         {
-            _logger.LogInformation("Adding model in DB. Model - {model}", model.GetType().Name);
-            var entityEntry = await _dbSet.AddAsync(model);
-
-            if (await SaveChangesAsync())
+            try
             {
-                return entityEntry.Entity;
+                if (entity == null)
+                {
+                    _logger.LogWarning("Attempted to delete a null entity.");
+                    return false;
+                }
+
+                _dbSet.Remove(entity);
+                _logger.LogInformation("Removing model from DB context. Model - {model}", entity.GetType().Name);
+                return true;
             }
-
-            return null;
-        }
-
-        public async Task<bool> UpdateAsync(TEntity model)
-        {
-            _dbSet.Update(model);
-            _logger.LogInformation("Updating model in DB. Model - {model}", model.GetType().Name);
-
-            return await SaveChangesAsync();
-        }
-
-        public async Task<IDbContextTransaction> BeginTransactionAsync()
-        {
-            return await _dbContext.Database.BeginTransactionAsync();
-        }
-
-        private async Task<bool> SaveChangesAsync()
-        {
-            return await _dbContext.SaveChangesAsync() > 0;
-        }
-        public async Task<bool> DeleteAsync(TEntity entity)
-        {
-            if (entity == null)
+            catch (Exception ex)
             {
-                _logger.LogWarning("Attempted to delete a null entity.");
+                _logger.LogError(ex, "Error removing model from DB context. Model - {model}", entity.GetType().Name);
                 return false;
             }
+        }
 
-            _dbSet.Remove(entity);
-            _logger.LogInformation("Deleting model from DB. Model - {model}", entity.GetType().Name);
+        public TEntity? Add(TEntity model)
+        {
+            try
+            {
+                _logger.LogInformation("Adding model to DB context. Model - {model}", model.GetType().Name);
+                _dbSet.Add(model);
 
-            return await SaveChangesAsync();
+                return model;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error adding model to DB context. Model - {model}", model.GetType().Name);
+                return null;
+            }
+        }
+        public TEntity? Update(TEntity model)
+        {
+            try
+            {
+                _dbSet.Update(model);
+                _logger.LogInformation("Updating model in DB context. Model - {model}", model.GetType().Name);
+
+                return model;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error updating model in DB context. Model - {model}", model.GetType().Name);
+
+                    return null;
+            }
         }
     }
 }

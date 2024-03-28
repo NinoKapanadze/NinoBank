@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using NinoBank.Domain.Entities;
 using NinoBank.Infrastructure.Data;
 using System.Reflection;
@@ -10,6 +11,15 @@ namespace NinoBank.WebApi
     {
         public static IServiceCollection AddWebApi(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Nino Bank API", Version = "v1" });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+            });
+
             services.AddControllers();
 
             services.AddEndpointsApiExplorer();
@@ -22,8 +32,7 @@ namespace NinoBank.WebApi
 
             services.AddScoped<UserManager<User>>();
 
-
-            services.AddIdentity<User, IdentityRole<Guid>>() // Replace IdentityRole<Guid> with whatever role class you're using
+            services.AddIdentity<User, IdentityRole<Guid>>() 
                     .AddEntityFrameworkStores<DataContext>();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

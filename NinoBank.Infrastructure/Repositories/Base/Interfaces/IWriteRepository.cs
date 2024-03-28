@@ -9,9 +9,8 @@ namespace NinoBank.Infrastructure.Repositories.Base.Interfaces
 {
     public interface IWriteRepository<TEntity> where TEntity : class
     {
-        Task<TEntity?> AddAsync(TEntity model);
-        Task<bool> UpdateAsync(TEntity model);
-        Task<IDbContextTransaction> BeginTransactionAsync();
-        Task<bool> DeleteAsync(TEntity entity);
+        TEntity? Add(TEntity model);
+        TEntity? Update(TEntity model);
+        bool Delete(TEntity entity);
     }
 }

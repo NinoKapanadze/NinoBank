@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "NinoBank.WebApi.Controllers.TransactionController",
+    "Method": "MakeTransaction",
+    "RelativePath": "api/Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NinoBank.WebApi.Models.AddTransactionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NinoBank.WebApi.Controllers.UserController",
     "Method": "Delete",
     "RelativePath": "api/User",

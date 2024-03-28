@@ -61,11 +61,29 @@ namespace NinoBank.Application {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to User with this ID does not exist.
+        /// </summary>
+        internal static string IncorrectId {
+            get {
+                return ResourceManager.GetString("IncorrectId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Internal server error.
         /// </summary>
         internal static string InternalServerError {
             get {
                 return ResourceManager.GetString("InternalServerError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sender does not have enough funds on balance.
+        /// </summary>
+        internal static string NotEnoughFundsForTransaction {
+            get {
+                return ResourceManager.GetString("NotEnoughFundsForTransaction", resourceCulture);
             }
         }
         

@@ -4,9 +4,9 @@ using NinoBank.Infrastructure.Data;
 using NinoBank.Infrastructure.Repositories;
 using NinoBank.Infrastructure.Repositories.Base;
 using NinoBank.Infrastructure.Repositories.Base.Interfaces;
-using NinoBank.Infrastructure.UnitOfWork.Interfaces;
+using NinoBank.Infrastructure.UnitOfWorks.Interfaces;
 
-namespace NinoBank.Infrastructure.UnitOfWork
+namespace NinoBank.Infrastructure.UnitOfWorks
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

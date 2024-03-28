@@ -26,7 +26,7 @@ namespace NinoBank.Infrastructure.Repositories.Base
             return await _dbSet.AsNoTracking().ToListAsync();
         }
 
-        public async Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> predicate)
+        public async Task<TEntity?> GetSingleAsync(Expression<Func<TEntity, bool>> predicate)
         {
             return await _dbSet.AsNoTracking().FirstOrDefaultAsync(predicate);
         }

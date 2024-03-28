@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NinoBank.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:NinoBank.WebApi.Controllers.TransactionController">
+            <summary>
+            Handles transaction-related operations.
+            </summary>
+        </member>
+        <member name="M:NinoBank.WebApi.Controllers.TransactionController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NinoBank.WebApi.Controllers.TransactionController"/> class.
+            </summary>
+            <param name="mediator">The mediator for handling request/response.</param>
+            <param name="mapper">The mapper for transforming objects.</param>
+        </member>
+        <member name="M:NinoBank.WebApi.Controllers.TransactionController.MakeTransaction(NinoBank.WebApi.Models.AddTransactionModel)">
+             <summary>
+             Creates a new transaction.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Transaction
+                 {
+                    "senderId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+                    "receiverId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "amount": 100.00
+                 }
+            
+             </remarks>
+             <param name="model">The transaction details.</param>
+             <returns>A response indicating the result of the transaction operation.</returns>
+        </member>
+        <member name="M:NinoBank.WebApi.Controllers.UserController.Resgister(NinoBank.WebApi.Models.RegisterModel)">
+             <summary>
+             Registers a new user.
+             </summary>
+             <remarks>
+             Password must meet the following criteria:
+             - Minimum length is 6 characters.
+             - Must contain at least one numeric digit ('0'-'9').
+             - Must contain at least one lowercase character ('a'-'z').
+             - Must contain at least one uppercase character ('A'-'Z').
+             - Must contain at least one non-alphanumeric character (e.g., '!', '@', '#', etc.).
+             
+             Sample request:
+            
+                 POST /api/User/Register
+                 {
+                    "email": "user@example.com",
+                    "firstName": "John",
+                    "lastName": "Doe",
+                    "password": "Password123!",
+                    "balance": 100.00
+                 }
+            
+             </remarks>
+             <param name="registerModel">The registration details.</param>
+             <returns>A response indicating success or failure.</returns>
+        </member>
+        <member name="M:NinoBank.WebApi.Controllers.UserController.Delete(NinoBank.WebApi.Models.DeleteUserModel)">
+            <summary>
+            Deletes a user.
+            </summary>
+            <param name="model">The user deletion details.</param>
+            <returns>A response indicating success or failure.</returns>
+        </member>
+        <member name="T:NinoBank.WebApi.Models.AddTransactionModel">
+            <summary>
+            Model representing a transaction request, including sender, receiver, and amount details.
+            </summary>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.AddTransactionModel.SenderId">
+            <summary>
+            Gets or sets the unique identifier for the sender of the transaction.
+            </summary>
+            <value>
+            The sender's unique identifier.
+            </value>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.AddTransactionModel.ReceiverId">
+            <summary>
+            Gets or sets the unique identifier for the receiver of the transaction.
+            </summary>
+            <value>
+            The receiver's unique identifier.
+            </value>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.AddTransactionModel.Amount">
+            <summary>
+            Gets or sets the amount of the transaction.
+            </summary>
+            <value>
+            The transaction amount as a decimal.
+            </value>
+        </member>
+        <member name="T:NinoBank.WebApi.Models.DeleteUserModel">
+            <summary>
+            Model representing a request to delete a user, identified by their email.
+            </summary>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.DeleteUserModel.Email">
+            <summary>
+            Gets or sets the email address of the user to be deleted.
+            </summary>
+            <value>
+            The email address of the user.
+            </value>
+        </member>
+        <member name="T:NinoBank.WebApi.Models.RegisterModel">
+            <summary>
+            Model for registering a new user, including their email, name, password, and initial balance.
+            </summary>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.RegisterModel.Email">
+            <summary>
+            Gets or sets the email address of the user. This is used as a unique identifier for the user.
+            </summary>
+            <value>The user's email address.</value>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.RegisterModel.FirstName">
+            <summary>
+            Gets or sets the first name of the user.
+            </summary>
+            <value>The user's first name.</value>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.RegisterModel.LastName">
+            <summary>
+            Gets or sets the last name of the user.
+            </summary>
+            <value>The user's last name.</value>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.RegisterModel.Password">
+            <summary>
+            Gets or sets the password for the user. This will be hashed and not stored in plain text.
+            </summary>
+            <value>The user's password.</value>
+        </member>
+        <member name="P:NinoBank.WebApi.Models.RegisterModel.Balance">
+            <summary>
+            Gets or sets the initial balance of the user's account. This is optional and can be zero.
+            </summary>
+            <value>The initial balance of the user's account.</value>
+        </member>
+    </members>
+</doc>

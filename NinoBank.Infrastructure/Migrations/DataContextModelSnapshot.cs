@@ -165,7 +165,7 @@ namespace NinoBank.Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("RecieverId")
+                    b.Property<Guid>("ReceiverId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("SenderId")
@@ -173,7 +173,7 @@ namespace NinoBank.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RecieverId");
+                    b.HasIndex("ReceiverId");
 
                     b.HasIndex("SenderId");
 
@@ -310,9 +310,9 @@ namespace NinoBank.Infrastructure.Migrations
 
             modelBuilder.Entity("NinoBank.Domain.Entities.Transaction", b =>
                 {
-                    b.HasOne("NinoBank.Domain.Entities.User", "Reciever")
+                    b.HasOne("NinoBank.Domain.Entities.User", "Receiver")
                         .WithMany("RecievedTransactions")
-                        .HasForeignKey("RecieverId")
+                        .HasForeignKey("ReceiverId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
@@ -322,7 +322,7 @@ namespace NinoBank.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Reciever");
+                    b.Navigation("Receiver");
 
                     b.Navigation("Sender");
                 });

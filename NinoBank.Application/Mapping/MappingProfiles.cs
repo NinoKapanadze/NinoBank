@@ -9,6 +9,7 @@ namespace NinoBank.Application.Mapping
         public MappingProfiles()
         {
             CreateMap<User, RegisterUserDTO>();
+            CreateMap<Transaction, AddTransactionDTO>();
         }
     }
 }
