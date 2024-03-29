@@ -70,6 +70,15 @@ namespace NinoBank.Application {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You can&apos;t transfer null or negative number.
+        /// </summary>
+        internal static string CantTransferNullOrNegativeNumber {
+            get {
+                return ResourceManager.GetString("CantTransferNullOrNegativeNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Forbidden.
         /// </summary>
         internal static string Forbidden {

@@ -83,7 +83,7 @@ namespace NinoBank.WebApi.Controllers
         }
 
         /// <summary>
-        /// Authenticates a user based on username and password.
+        /// Login a
         /// </summary>
         /// <param name="model">The login details including username and password.</param>
         /// <returns>
