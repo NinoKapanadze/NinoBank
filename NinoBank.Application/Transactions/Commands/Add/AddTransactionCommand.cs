@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using NinoBank.Application.Models;
-using NinoBank.Application.ResultWrappers.Generic;
+using NinoBank.Application.ResultWrapper.Generic;
 
 namespace NinoBank.Application.Transactions.Commands.Add
 {

@@ -1,6 +1,6 @@
 ﻿using NinoBank.Application.Models.Enums;
 
-namespace NinoBank.Application.ResultWrappers.Generic
+namespace NinoBank.Application.ResultWrapper.Generic
 {
     public class ResultWrapper<T> : ResultWrapper
     {

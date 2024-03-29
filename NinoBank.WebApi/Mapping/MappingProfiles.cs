@@ -2,6 +2,7 @@
 using NinoBank.Application.Transactions.Commands.Add;
 using NinoBank.Application.Users.Commands.Delete;
 using NinoBank.Application.Users.Commands.Register;
+using NinoBank.Application.Users.Queries.Login;
 using NinoBank.WebApi.Models;
 
 namespace NinoBank.WebApi.Mapping
@@ -13,6 +14,7 @@ namespace NinoBank.WebApi.Mapping
             CreateMap<RegisterModel, RegisterCommand>();
             CreateMap<DeleteUserModel, DeleteUserCommand>();
             CreateMap<AddTransactionModel, AddTransactionCommand>();
+            CreateMap<LoginModel, LoginQuery>();
         }
     }
 }

@@ -25,6 +25,11 @@
               Looks up a localized string similar to User with this ID does not exist.
             </summary>
         </member>
+        <member name="P:NinoBank.Application.Resources.IncorrectPassword">
+            <summary>
+              Looks up a localized string similar to Password is not correct, try again.
+            </summary>
+        </member>
         <member name="P:NinoBank.Application.Resources.InternalServerError">
             <summary>
               Looks up a localized string similar to Internal server error.

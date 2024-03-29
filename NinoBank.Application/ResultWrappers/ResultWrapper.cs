@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NinoBank.Application.ResultWrappers
+namespace NinoBank.Application.ResultWrapper
 {
     public class ResultWrapper
     {

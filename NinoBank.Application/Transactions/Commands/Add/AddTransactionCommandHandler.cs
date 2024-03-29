@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using NinoBank.Application.Models;
-using NinoBank.Application.ResultWrappers.Generic;
+using NinoBank.Application.ResultWrapper.Generic;
 using NinoBank.Domain.Entities;
 using NinoBank.Infrastructure.Repositories.Base.Interfaces;
 using NinoBank.Infrastructure.UnitOfWorks.Interfaces;

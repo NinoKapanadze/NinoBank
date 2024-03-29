@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "NinoBank.WebApi.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NinoBank.WebApi.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NinoBank.WebApi.Controllers.UserController",
     "Method": "Resgister",
     "RelativePath": "api/User/Register",
     "HttpMethod": "POST",

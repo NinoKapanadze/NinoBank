@@ -120,6 +120,9 @@
   <data name="IncorrectId" xml:space="preserve">
     <value>User with this ID does not exist</value>
   </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Password is not correct, try again</value>
+  </data>
   <data name="InternalServerError" xml:space="preserve">
     <value>Internal server error</value>
   </data>

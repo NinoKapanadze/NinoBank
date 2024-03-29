@@ -153,3 +153,4 @@ C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.WebApi\bin\Debug\net8.0\
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.WebApi\bin\Debug\net8.0\NinoBank.Application.xml
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.WebApi\bin\Debug\net8.0\NinoBank.WebApi.xml
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.WebApi\obj\Debug\net8.0\NinoBank.WebApi.xml
+C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

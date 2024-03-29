@@ -22,6 +22,8 @@ namespace NinoBank.Infrastructure
             services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
             services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
 
+
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;

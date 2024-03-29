@@ -70,6 +70,15 @@ namespace NinoBank.Application {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password is not correct, try again.
+        /// </summary>
+        internal static string IncorrectPassword {
+            get {
+                return ResourceManager.GetString("IncorrectPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Internal server error.
         /// </summary>
         internal static string InternalServerError {
