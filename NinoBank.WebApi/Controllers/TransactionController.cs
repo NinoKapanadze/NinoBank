@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NinoBank.Application.Transactions.Commands.Add;
 using NinoBank.WebApi.Extensions;
 using NinoBank.WebApi.Models;
+using System.Security.Claims;
 
 namespace NinoBank.WebApi.Controllers
 {
@@ -36,7 +38,6 @@ namespace NinoBank.WebApi.Controllers
         ///
         ///     POST /api/Transaction
         ///     {
-        ///        "senderId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
         ///        "receiverId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         ///        "amount": 100.00
         ///     }
@@ -44,10 +45,18 @@ namespace NinoBank.WebApi.Controllers
         /// </remarks>
         /// <param name="model">The transaction details.</param>
         /// <returns>A response indicating the result of the transaction operation.</returns>
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> MakeTransaction([FromBody] AddTransactionModel model)
         {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out var userId))
+            {
+                return Unauthorized("Unable to identify the authenticated user.");
+            }
             var command = _mapper.Map<AddTransactionCommand>(model);
+            command.SenderId = userId;
             var result = await _mediator.Send(command);
 
             return StatusCode(result.OperationResult.ToHttpStatusCode(), result.IsSuccess ? result.Value : result.FailureReason);

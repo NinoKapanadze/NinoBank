@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NinoBank.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d729cd497c68431750c52195931e3cc17ad088")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8972969bce37f165fdd8d1a8a90c0fef61c8a2fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("NinoBank.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NinoBank.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

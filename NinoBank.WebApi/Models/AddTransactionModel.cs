@@ -6,14 +6,6 @@
     public class AddTransactionModel
     {
         /// <summary>
-        /// Gets or sets the unique identifier for the sender of the transaction.
-        /// </summary>
-        /// <value>
-        /// The sender's unique identifier.
-        /// </value>
-        public Guid SenderId { get; set; }
-
-        /// <summary>
         /// Gets or sets the unique identifier for the receiver of the transaction.
         /// </summary>
         /// <value>

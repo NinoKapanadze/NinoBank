@@ -25,7 +25,6 @@
             
                  POST /api/Transaction
                  {
-                    "senderId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
                     "receiverId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
                     "amount": 100.00
                  }
@@ -81,14 +80,6 @@
             <summary>
             Model representing a transaction request, including sender, receiver, and amount details.
             </summary>
-        </member>
-        <member name="P:NinoBank.WebApi.Models.AddTransactionModel.SenderId">
-            <summary>
-            Gets or sets the unique identifier for the sender of the transaction.
-            </summary>
-            <value>
-            The sender's unique identifier.
-            </value>
         </member>
         <member name="P:NinoBank.WebApi.Models.AddTransactionModel.ReceiverId">
             <summary>
