@@ -17,7 +17,7 @@ namespace NinoBank.WebApi
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("V2", new OpenApiInfo { Title = "Nino Bank API", Version = "V2" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Nino Bank API", Version = "v1" });
 
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);

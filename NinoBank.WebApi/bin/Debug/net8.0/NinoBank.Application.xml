@@ -25,6 +25,11 @@
               Looks up a localized string similar to Bad request.
             </summary>
         </member>
+        <member name="P:NinoBank.Application.Resources.CantTransferNullOrNegativeNumber">
+            <summary>
+              Looks up a localized string similar to You can&apos;t transfer null or negative number.
+            </summary>
+        </member>
         <member name="P:NinoBank.Application.Resources.Forbidden">
             <summary>
               Looks up a localized string similar to Forbidden.

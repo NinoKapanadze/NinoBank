@@ -5311,11 +5311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.csproj",
       "projectName": "NinoBank.WebApi",
-      "projectPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5332,8 +5332,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj"
+            "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj"
             }
           }
         }

@@ -3836,11 +3836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj",
       "projectName": "NinoBank.Application",
-      "projectPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3857,11 +3857,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj"
+            "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj"
             },
-            "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj"
+            "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj"
             }
           }
         }

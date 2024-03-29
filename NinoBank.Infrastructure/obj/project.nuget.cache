@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TRJMyKG7wMN7se6NVzT2SNWZYs3pFAcUnB0t0onXU6KqeS3fnpDeZ5t5A2gXvPrsWbjWUvrnyXHTvWM8eDDAOA==",
+  "dgSpecHash": "Ru1zt+R9T3D/74fE7FMUi0Tw9bbk1E50KZ8RYId7SGJZkWKUXj/0xXMCooJqL+GTqRLboNuSny8k7NXVtrslVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

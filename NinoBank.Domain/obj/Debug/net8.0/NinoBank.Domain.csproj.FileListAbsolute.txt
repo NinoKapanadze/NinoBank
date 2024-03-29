@@ -11,3 +11,16 @@ C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Domain\obj\Debug\net8.0\
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Domain\obj\Debug\net8.0\refint\NinoBank.Domain.dll
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.pdb
 C:\Users\User\Desktop\TeraBankProject\NinoBank\NinoBank.Domain\obj\Debug\net8.0\ref\NinoBank.Domain.dll
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\bin\Debug\net8.0\NinoBank.Domain.deps.json
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\bin\Debug\net8.0\NinoBank.Domain.dll
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\bin\Debug\net8.0\NinoBank.Domain.pdb
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.sourcelink.json
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.dll
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\refint\NinoBank.Domain.dll
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\NinoBank.Domain.pdb
+C:\Users\User\Desktop\NinoBank\NinoBank\NinoBank.Domain\obj\Debug\net8.0\ref\NinoBank.Domain.dll

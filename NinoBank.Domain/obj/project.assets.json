@@ -564,11 +564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj",
       "projectName": "NinoBank.Domain",
-      "projectPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Domain\\NinoBank.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Domain\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\NinoBank\\NinoBank\\NinoBank.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
