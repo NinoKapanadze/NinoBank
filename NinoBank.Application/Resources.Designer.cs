@@ -61,6 +61,24 @@ namespace NinoBank.Application {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bad request.
+        /// </summary>
+        internal static string BadRequest {
+            get {
+                return ResourceManager.GetString("BadRequest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forbidden.
+        /// </summary>
+        internal static string Forbidden {
+            get {
+                return ResourceManager.GetString("Forbidden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User with this ID does not exist.
         /// </summary>
         internal static string IncorrectId {
@@ -93,6 +111,15 @@ namespace NinoBank.Application {
         internal static string NotEnoughFundsForTransaction {
             get {
                 return ResourceManager.GetString("NotEnoughFundsForTransaction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not found.
+        /// </summary>
+        internal static string NotFound {
+            get {
+                return ResourceManager.GetString("NotFound", resourceCulture);
             }
         }
         

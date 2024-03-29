@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using NinoBank.Application.ResultWrapper.Generic;
+using NinoBank.Application.ResultWrappers.Generic;
 
 namespace NinoBank.Application.Users.Queries.Login
 {

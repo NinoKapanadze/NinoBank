@@ -1,6 +1,6 @@
 ﻿using NinoBank.Application.Models.Enums;
 
-namespace NinoBank.Application.ResultWrapper.Generic
+namespace NinoBank.Application.ResultWrappers.Generic
 {
     public class ResultWrapper<T> : ResultWrapper
     {
@@ -20,10 +20,25 @@ namespace NinoBank.Application.ResultWrapper.Generic
         public static ResultWrapper<T> Ok(T value) => new(value, OperationResult.Success);
 
         public new static ResultWrapper<T> BadRequest(string errorMessage) => new(errorMessage,
-             OperationResult.BadRequest);
+            OperationResult.BadRequest);
+
+        public new static ResultWrapper<T> BadRequest() => new(Resources.BadRequest,
+            OperationResult.BadRequest);
+
+        public new static ResultWrapper<T> NotFound(string errorMessage) => new(errorMessage,
+            OperationResult.NotFound);
+
+        public new static ResultWrapper<T> NotFound() => new(Resources.NotFound,
+            OperationResult.NotFound);
+
+        public new static ResultWrapper<T> Forbidden() =>
+            new(Resources.Forbidden, OperationResult.Forbidden);
+
+        public new static ResultWrapper<T> Forbidden(string errorMessage) =>
+               new(errorMessage, OperationResult.Forbidden);
 
         public new static ResultWrapper<T> InternalServerError(string errorMessage) =>
-           new(errorMessage, OperationResult.InternalServerError);
+            new(errorMessage, OperationResult.InternalServerError);
 
         public new static ResultWrapper<T> InternalServerError() =>
             new(Resources.InternalServerError, OperationResult.InternalServerError);

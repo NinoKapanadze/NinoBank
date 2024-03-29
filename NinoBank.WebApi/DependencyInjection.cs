@@ -11,7 +11,7 @@ namespace NinoBank.WebApi
 {
     public static class DependencyInjection
     {
-        private static  readonly  IOptions<JWTConfiguration> _options;
+        private static  readonly IOptions<JWTConfiguration>? _options;
 
         public static IServiceCollection AddWebApi(this IServiceCollection services, IConfiguration configuration)
         {

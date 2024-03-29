@@ -61,12 +61,21 @@
              <param name="registerModel">The registration details.</param>
              <returns>A response indicating success or failure.</returns>
         </member>
-        <member name="M:NinoBank.WebApi.Controllers.UserController.Delete(NinoBank.WebApi.Models.DeleteUserModel)">
+        <member name="M:NinoBank.WebApi.Controllers.UserController.Delete">
             <summary>
             Deletes a user.
             </summary>
-            <param name="model">The user deletion details.</param>
-            <returns>A response indicating success or failure.</returns>
+            <returns>A response indicating success or failure with reason.</returns>
+        </member>
+        <member name="M:NinoBank.WebApi.Controllers.UserController.Login(NinoBank.WebApi.Models.LoginModel)">
+            <summary>
+            Authenticates a user based on username and password.
+            </summary>
+            <param name="model">The login details including username and password.</param>
+            <returns>
+            If successful, an IActionResult containing a JWT token for authorization in subsequent requests.
+            If failed, an IActionResult containing the error reason.
+            </returns>
         </member>
         <member name="T:NinoBank.WebApi.Models.AddTransactionModel">
             <summary>

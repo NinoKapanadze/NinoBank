@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using NinoBank.Application.Models;
-using NinoBank.Application.ResultWrapper.Generic;
+using NinoBank.Application.ResultWrappers.Generic;
 using NinoBank.Domain.Entities;
 
 namespace NinoBank.Application.Users.Commands.Register

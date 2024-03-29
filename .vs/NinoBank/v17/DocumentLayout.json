@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\users\\commands\\delete\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\users\\commands\\delete\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85223C00-C2FB-491B-A4FA-960B29857EAC}|NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85223C00-C2FB-491B-A4FA-960B29857EAC}|NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj|solutionrelative:ninobank.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\users\\commands\\delete\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\users\\commands\\delete\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\models\\deleteusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\models\\deleteusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\models\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,12 +35,36 @@
       "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\models\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\resultwrappers\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\resultwrappers\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\resultwrappers\\generic\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\resultwrappers\\generic\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\models\\configurations\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\models\\configurations\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\ninobank.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\ninobank.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85223C00-C2FB-491B-A4FA-960B29857EAC}|NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85223C00-C2FB-491B-A4FA-960B29857EAC}|NinoBank.Infrastructure\\NinoBank.Infrastructure.csproj|solutionrelative:ninobank.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\ninobank.application\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -79,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\users\\queries\\login\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\models\\deleteusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\models\\deleteusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -105,14 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\users\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\users\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\users\\commands\\delete\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\users\\commands\\delete\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\users\\commands\\delete\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\users\\commands\\delete\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\transactions\\commands\\add\\addtransactioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,24 +195,12 @@
       "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\ninobank.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\ninobank.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\ninobank.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\ninobank.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|solutionrelative:ninobank.webapi\\ninobank.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\resultwrappers\\generic\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\resultwrappers\\generic\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.application\\resultwrappers\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD4DEB-C0CA-4E11-946D-D8889BA3E84B}|NinoBank.Application\\NinoBank.Application.csproj|solutionrelative:ninobank.application\\resultwrappers\\resultwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7167E6FD-35E6-413E-A848-57FBA61654F6}|NinoBank.WebApi\\NinoBank.WebApi.csproj|c:\\users\\user\\desktop\\terabankproject\\ninobank\\ninobank.webapi\\extensions\\operationresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -258,8 +258,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "NinoBank.Application\\Services\\TokenService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:02:24.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\DeleteUserModel.cs",
+              "RelativeDocumentMoniker": "NinoBank.WebApi\\Models\\DeleteUserModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\DeleteUserModel.cs",
+              "RelativeToolTip": "NinoBank.WebApi\\Models\\DeleteUserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:16:45.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "NinoBank.WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "NinoBank.WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAYwF0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T10:25:32.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
+              "RelativeToolTip": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:13:39.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
+              "RelativeToolTip": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:13:20.261Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -268,7 +333,7 @@
               "RelativeDocumentMoniker": "NinoBank.WebApi\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\DependencyInjection.cs",
               "RelativeToolTip": "NinoBank.WebApi\\DependencyInjection.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwFEAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T10:35:50.194Z",
               "EditorCaption": ""
@@ -288,58 +353,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Services\\TokenService.cs",
-              "RelativeToolTip": "NinoBank.Application\\Services\\TokenService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA4wBgAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T17:02:24.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "NinoBank.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\appsettings.json",
-              "RelativeToolTip": "NinoBank.WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-28T07:29:49.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "NinoBank.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\DependencyInjection.cs*",
-              "RelativeToolTip": "NinoBank.Infrastructure\\DependencyInjection.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:55:20.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "NinoBank.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBgAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:55:01.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "RegisterUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Models\\RegisterUserDTO.cs",
@@ -353,58 +366,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "NinoBank.WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "NinoBank.WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAUwE8AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:25:32.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "JWTConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
-              "RelativeToolTip": "NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Title": "ResultWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
+              "RelativeToolTip": "NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T17:07:01.703Z",
+              "WhenOpened": "2024-03-28T08:41:16.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "NinoBank.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Program.cs",
-              "RelativeToolTip": "NinoBank.WebApi\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA8AAAAtAAAA",
+              "Title": "ResultWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
+              "RelativeToolTip": "NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T07:33:31.446Z",
+              "WhenOpened": "2024-03-28T08:41:40.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "JWTConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
+              "RelativeToolTip": "NinoBank.Application\\Models\\Configurations\\JWTConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:07:01.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NinoBank.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.http",
+              "RelativeDocumentMoniker": "NinoBank.WebApi\\NinoBank.WebApi.http",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.http",
+              "RelativeToolTip": "NinoBank.WebApi\\NinoBank.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-28T06:23:25.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "NinoBank.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Program.cs",
+              "RelativeToolTip": "NinoBank.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:33:31.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "NinoBank.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "NinoBank.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T10:55:01.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "NinoBank.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "NinoBank.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T10:55:20.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "NinoBank.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\appsettings.json",
+              "RelativeToolTip": "NinoBank.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-28T07:29:49.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Resources.resx",
               "RelativeDocumentMoniker": "NinoBank.Application\\Resources.resx",
               "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Resources.resx",
               "RelativeToolTip": "NinoBank.Application\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-28T08:48:39.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:48:39.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "TransactionEntityTypeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\EntityTypeConfigurations\\TransactionEntityTypeConfiguration.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\EntityTypeConfigurations\\TransactionEntityTypeConfiguration.cs",
@@ -412,12 +483,11 @@
               "RelativeToolTip": "NinoBank.Infrastructure\\EntityTypeConfigurations\\TransactionEntityTypeConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:51:37.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T06:51:37.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "LoginQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Queries\\Login\\LoginQueryHandler.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Queries\\Login\\LoginQueryHandler.cs",
@@ -430,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Data\\DataContext.cs",
@@ -438,12 +508,11 @@
               "RelativeToolTip": "NinoBank.Infrastructure\\Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:40:44.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T06:40:44.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "UserEntityTypeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\EntityTypeConfigurations\\UserEntityTypeConfiguration.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\EntityTypeConfigurations\\UserEntityTypeConfiguration.cs",
@@ -451,12 +520,11 @@
               "RelativeToolTip": "NinoBank.Infrastructure\\EntityTypeConfigurations\\UserEntityTypeConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:51:21.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T06:51:21.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Mapping\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\Mapping\\MappingProfiles.cs",
@@ -464,12 +532,11 @@
               "RelativeToolTip": "NinoBank.WebApi\\Mapping\\MappingProfiles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T09:41:55.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T09:41:55.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "TransactionController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Controllers\\TransactionController.cs",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\Controllers\\TransactionController.cs",
@@ -477,12 +544,11 @@
               "RelativeToolTip": "NinoBank.WebApi\\Controllers\\TransactionController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T12:43:21.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T12:43:21.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\Models\\LoginModel.cs",
@@ -490,12 +556,11 @@
               "RelativeToolTip": "NinoBank.WebApi\\Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T18:38:27.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T18:38:27.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "ReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Base\\ReadRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Base\\ReadRepository.cs",
@@ -507,19 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DeleteUserModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\DeleteUserModel.cs",
-              "RelativeDocumentMoniker": "NinoBank.WebApi\\Models\\DeleteUserModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\DeleteUserModel.cs",
-              "RelativeToolTip": "NinoBank.WebApi\\Models\\DeleteUserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T12:16:45.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "LoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Queries\\Login\\LoginQuery.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Queries\\Login\\LoginQuery.cs",
@@ -527,11 +580,12 @@
               "RelativeToolTip": "NinoBank.Application\\Users\\Queries\\Login\\LoginQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T16:42:37.977Z"
+              "WhenOpened": "2024-03-28T16:42:37.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "IWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Base\\Interfaces\\IWriteRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Base\\Interfaces\\IWriteRepository.cs",
@@ -543,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "IReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Base\\Interfaces\\IReadRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Base\\Interfaces\\IReadRepository.cs",
@@ -555,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\RegisterModel.cs",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\Models\\RegisterModel.cs",
@@ -567,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "RegisterCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Register\\RegisterCommandHandler.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Commands\\Register\\RegisterCommandHandler.cs",
@@ -575,11 +629,12 @@
               "RelativeToolTip": "NinoBank.Application\\Users\\Commands\\Register\\RegisterCommandHandler.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAYwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:40:28.421Z"
+              "WhenOpened": "2024-03-28T08:40:28.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "RegisterCommand.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Register\\RegisterCommand.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Commands\\Register\\RegisterCommand.cs",
@@ -587,35 +642,12 @@
               "RelativeToolTip": "NinoBank.Application\\Users\\Commands\\Register\\RegisterCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:40:18.34Z"
+              "WhenOpened": "2024-03-28T08:40:18.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DeleteUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
-              "RelativeToolTip": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommandHandler.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T12:13:39.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DeleteUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
-              "RelativeToolTip": "NinoBank.Application\\Users\\Commands\\Delete\\DeleteUserCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T12:13:20.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "AddTransactionCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Transactions\\Commands\\Add\\AddTransactionCommandHandler.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Transactions\\Commands\\Add\\AddTransactionCommandHandler.cs",
@@ -623,11 +655,12 @@
               "RelativeToolTip": "NinoBank.Application\\Transactions\\Commands\\Add\\AddTransactionCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T12:31:19.814Z"
+              "WhenOpened": "2024-03-28T12:31:19.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "AddTransactionCommand.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Transactions\\Commands\\Add\\AddTransactionCommand.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Transactions\\Commands\\Add\\AddTransactionCommand.cs",
@@ -635,11 +668,12 @@
               "RelativeToolTip": "NinoBank.Application\\Transactions\\Commands\\Add\\AddTransactionCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T12:31:04.289Z"
+              "WhenOpened": "2024-03-28T12:31:04.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\UnitOfWorks\\UnitOfWork.cs",
@@ -651,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\UnitOfWorks\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\UnitOfWorks\\Interfaces\\IUnitOfWork.cs",
@@ -663,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "UserWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\UserWriteRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\UserWriteRepository.cs",
@@ -675,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "UserReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\UserReadRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\UserReadRepository.cs",
@@ -687,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "TransactionWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\TransactionWriteRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\TransactionWriteRepository.cs",
@@ -699,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "TransactionReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\TransactionReadRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\TransactionReadRepository.cs",
@@ -711,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "IUserWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Interfaces\\IUserWriteRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Interfaces\\IUserWriteRepository.cs",
@@ -723,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "IUserReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Interfaces\\IUserReadRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Interfaces\\IUserReadRepository.cs",
@@ -735,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "ITransactionWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Interfaces\\ITransactionWriteRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Interfaces\\ITransactionWriteRepository.cs",
@@ -747,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "ITransactionReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Interfaces\\ITransactionReadRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Interfaces\\ITransactionReadRepository.cs",
@@ -759,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "WriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Infrastructure\\Repositories\\Base\\WriteRepository.cs",
               "RelativeDocumentMoniker": "NinoBank.Infrastructure\\Repositories\\Base\\WriteRepository.cs",
@@ -771,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "AddTransactionModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Models\\AddTransactionModel.cs",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\Models\\AddTransactionModel.cs",
@@ -783,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\Mapping\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "NinoBank.Application\\Mapping\\MappingProfiles.cs",
@@ -795,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "NinoBank.WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.csproj",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\NinoBank.WebApi.csproj",
@@ -807,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "NinoBank.WebApi",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.csproj",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\NinoBank.WebApi.csproj",
@@ -818,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NinoBank.WebApi\\Properties\\launchSettings.json",
@@ -830,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "NinoBank.Application.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\NinoBank.Application.csproj",
               "RelativeDocumentMoniker": "NinoBank.Application\\NinoBank.Application.csproj",
@@ -839,18 +873,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-03-28T14:08:32.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "NinoBank.WebApi.http",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.http",
-              "RelativeDocumentMoniker": "NinoBank.WebApi\\NinoBank.WebApi.http",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.WebApi\\NinoBank.WebApi.http",
-              "RelativeToolTip": "NinoBank.WebApi\\NinoBank.WebApi.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-03-28T06:23:25.108Z"
             },
             {
               "$type": "Document",
@@ -863,30 +885,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T14:03:42.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ResultWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
-              "RelativeToolTip": "NinoBank.Application\\ResultWrappers\\ResultWrapper.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAABgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:41:16.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ResultWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
-              "RelativeDocumentMoniker": "NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TeraBankProject\\NinoBank\\NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
-              "RelativeToolTip": "NinoBank.Application\\ResultWrappers\\Generic\\ResultWrapper.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBUAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:41:40.901Z"
             },
             {
               "$type": "Document",

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using NinoBank.Application.Models;
-using NinoBank.Application.ResultWrapper.Generic;
+using NinoBank.Application.ResultWrappers.Generic;
 
 namespace NinoBank.Application.Users.Commands.Register
 {

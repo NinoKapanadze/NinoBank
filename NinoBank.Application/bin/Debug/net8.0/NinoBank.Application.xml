@@ -20,6 +20,16 @@
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
+        <member name="P:NinoBank.Application.Resources.BadRequest">
+            <summary>
+              Looks up a localized string similar to Bad request.
+            </summary>
+        </member>
+        <member name="P:NinoBank.Application.Resources.Forbidden">
+            <summary>
+              Looks up a localized string similar to Forbidden.
+            </summary>
+        </member>
         <member name="P:NinoBank.Application.Resources.IncorrectId">
             <summary>
               Looks up a localized string similar to User with this ID does not exist.
@@ -38,6 +48,11 @@
         <member name="P:NinoBank.Application.Resources.NotEnoughFundsForTransaction">
             <summary>
               Looks up a localized string similar to Sender does not have enough funds on balance.
+            </summary>
+        </member>
+        <member name="P:NinoBank.Application.Resources.NotFound">
+            <summary>
+              Looks up a localized string similar to Not found.
             </summary>
         </member>
         <member name="P:NinoBank.Application.Resources.UserWithEmailDoesNotExist">

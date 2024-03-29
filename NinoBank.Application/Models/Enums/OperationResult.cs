@@ -9,9 +9,9 @@ namespace NinoBank.Application.Models.Enums
     public enum OperationResult
     {
         Success,
+        NoContent,
         NotFound,
         BadRequest,
-        Unauthorized,
         Forbidden,
         InternalServerError
     }
