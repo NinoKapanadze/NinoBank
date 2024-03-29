@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NinoBank.Application.Users.Commands.Delete;
 using NinoBank.Application.Users.Commands.Register;
+using NinoBank.Application.Users.Queries.Login;
 using NinoBank.WebApi.Extensions;
 using NinoBank.WebApi.Models;
+using System.Security.Claims;
 
 namespace NinoBank.WebApi.Controllers
 {
@@ -60,16 +63,42 @@ namespace NinoBank.WebApi.Controllers
         /// <summary>
         /// Deletes a user.
         /// </summary>
-        /// <param name="model">The user deletion details.</param>
-        /// <returns>A response indicating success or failure.</returns>
+        /// <returns>A response indicating success or failure with reason.</returns>
+        [Authorize]
         [HttpDelete]
-        public async Task<IActionResult> Delete([FromBody]DeleteUserModel model)
+        public async Task<IActionResult> Delete()
         {
-            var command = _mapper.Map<DeleteUserCommand>(model);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (userIdClaim == null)
+            {
+                return Unauthorized("Unable to identify the authenticated user.");
+            }
+
+            var command = new DeleteUserCommand { IdString = userIdClaim.Value };
 
             var result = await _mediator.Send(command);
 
             return StatusCode(result.OperationResult.ToHttpStatusCode(), result.IsSuccess ? true : result.FailureReason);
+        }
+
+        /// <summary>
+        /// Login a
+        /// </summary>
+        /// <param name="model">The login details including username and password.</param>
+        /// <returns>
+        /// If successful, an IActionResult containing a JWT token for authorization in subsequent requests.
+        /// If failed, an IActionResult containing the error reason.
+        /// </returns>
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> Login([FromBody]LoginModel model)
+        {
+            var query = _mapper.Map<LoginQuery>(model);
+
+            var result = await _mediator.Send(query);
+
+            return StatusCode(result.OperationResult.ToHttpStatusCode(), result.IsSuccess ? result.Value : result.FailureReason);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace NinoBank.Application.Users.Commands.Delete
 
         public async Task<ResultWrapper> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
         {
-            var user = await _userManager.FindByEmailAsync(request.Email);
+            var user = await _userManager.FindByIdAsync(request.IdString);
 
             if (user == null)
             {
@@ -30,7 +30,7 @@ namespace NinoBank.Application.Users.Commands.Delete
                 return ResultWrapper.InternalServerError(Resources.InternalServerError);
             }
 
-            return ResultWrapper.Ok();
+            return ResultWrapper.NoContent();
         }
     }
 }

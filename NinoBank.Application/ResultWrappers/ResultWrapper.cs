@@ -24,18 +24,30 @@ namespace NinoBank.Application.ResultWrappers
             OperationResult = operationResult;
         }
 
-        public static ResultWrapper Ok() => new(OperationResult.Success);
+        public static ResultWrapper NoContent() => new(OperationResult.NoContent);
 
         public static ResultWrapper BadRequest(string errorMessage) =>
-           new(errorMessage, OperationResult.BadRequest);
+            new(errorMessage, OperationResult.BadRequest);
+
+        public static ResultWrapper BadRequest() =>
+            new(Resources.BadRequest, OperationResult.BadRequest);
 
         public static ResultWrapper NotFound(string errorMessage) =>
-           new(errorMessage, OperationResult.NotFound);
+            new(errorMessage, OperationResult.NotFound);
+
+        public static ResultWrapper NotFound() =>
+            new(Resources.NotFound, OperationResult.NotFound);
 
         public static ResultWrapper InternalServerError(string errorMessage) =>
-           new(errorMessage, OperationResult.InternalServerError);
+            new(errorMessage, OperationResult.InternalServerError);
 
         public static ResultWrapper InternalServerError() =>
             new(Resources.InternalServerError, OperationResult.InternalServerError);
+
+        public static ResultWrapper Forbidden(string errorMessage) =>
+            new(errorMessage, OperationResult.Forbidden);
+
+        public static ResultWrapper Forbidden() =>
+            new(Resources.Forbidden, OperationResult.Forbidden);
     }
 }

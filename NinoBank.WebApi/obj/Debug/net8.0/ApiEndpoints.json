@@ -22,10 +22,20 @@
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NinoBank.WebApi.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
     "Parameters": [
       {
         "Name": "model",
-        "Type": "NinoBank.WebApi.Models.DeleteUserModel",
+        "Type": "NinoBank.WebApi.Models.LoginModel",
         "IsRequired": true
       }
     ],

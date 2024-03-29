@@ -23,6 +23,11 @@ namespace NinoBank.Application.Transactions.Commands.Add
 
         public async Task<ResultWrapper<AddTransactionDTO>> Handle(AddTransactionCommand request, CancellationToken cancellationToken)
         {
+            if(request.Amount<=0)
+            {
+                return ResultWrapper<AddTransactionDTO>.BadRequest(Resources.CantTransferNullOrNegativeNumber);
+            }
+
             var receiver = await _userReadRepository.GetSingleAsync(user => user.Id == request.ReceiverId);
 
             var sender = await _userReadRepository.GetSingleAsync(user => user.Id == request.SenderId);
@@ -71,5 +76,4 @@ namespace NinoBank.Application.Transactions.Commands.Add
             return ResultWrapper<AddTransactionDTO>.Ok(transactionDto);
         }
     }
-
 }

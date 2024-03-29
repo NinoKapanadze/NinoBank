@@ -117,14 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BadRequest" xml:space="preserve">
+    <value>Bad request</value>
+  </data>
+  <data name="CantTransferNullOrNegativeNumber" xml:space="preserve">
+    <value>You can't transfer null or negative number</value>
+  </data>
+  <data name="Forbidden" xml:space="preserve">
+    <value>Forbidden</value>
+  </data>
   <data name="IncorrectId" xml:space="preserve">
     <value>User with this ID does not exist</value>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Password is not correct, try again</value>
   </data>
   <data name="InternalServerError" xml:space="preserve">
     <value>Internal server error</value>
   </data>
   <data name="NotEnoughFundsForTransaction" xml:space="preserve">
     <value>Sender does not have enough funds on balance</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Not found</value>
   </data>
   <data name="UserWithEmailDoesNotExist" xml:space="preserve">
     <value>User with this email does not exist</value>

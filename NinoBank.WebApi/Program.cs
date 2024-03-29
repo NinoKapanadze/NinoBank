@@ -1,5 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using NinoBank.Infrastructure.Data;
 using NinoBank.Application;
 using NinoBank.Infrastructure;
 
@@ -15,7 +13,7 @@ public class Program
 
         builder.Services
                 .AddWebApi(configuration)
-                .AddApplication()
+                .AddApplication(configuration)
                 .Addinfrastructure(configuration)
                 .AddLogging(loggingBuilder =>
                 {
@@ -25,7 +23,6 @@ public class Program
      
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
@@ -35,7 +32,6 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
 
         app.MapControllers();
 
