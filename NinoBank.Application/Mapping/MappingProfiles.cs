@@ -10,6 +10,9 @@ namespace NinoBank.Application.Mapping
         {
             CreateMap<User, RegisterUserDTO>();
             CreateMap<Transaction, AddTransactionDTO>();
+            CreateMap<User, GetUserDTO>();
+            CreateMap<Transaction, GetSentTransactionDTO>();
+            CreateMap<Transaction, GetReceivedTransactionDTO>();
         }
     }
 }

@@ -27,6 +27,16 @@
   },
   {
     "ContainingType": "NinoBank.WebApi.Controllers.UserController",
+    "Method": "GetUserInformation",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NinoBank.WebApi.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/User/Login",
     "HttpMethod": "POST",

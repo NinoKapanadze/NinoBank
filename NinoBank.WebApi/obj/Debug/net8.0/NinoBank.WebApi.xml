@@ -68,13 +68,21 @@
         </member>
         <member name="M:NinoBank.WebApi.Controllers.UserController.Login(NinoBank.WebApi.Models.LoginModel)">
             <summary>
-            Authenticates a user based on username and password.
+            Login a User
             </summary>
             <param name="model">The login details including username and password.</param>
             <returns>
-            If successful, an IActionResult containing a JWT token for authorization in subsequent requests.
+            If successful, JWT token for authorization in subsequent requests.
             If failed, an IActionResult containing the error reason.
             </returns>
+        </member>
+        <member name="M:NinoBank.WebApi.Controllers.UserController.GetUserInformation">
+            <summary>
+            Get information for currently authenticated User
+            </summary>
+            <remarks>
+            Gets User with all its information, including transactions
+            </remarks>
         </member>
         <member name="T:NinoBank.WebApi.Models.AddTransactionModel">
             <summary>

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NinoBank.Application.Users.Commands.Delete;
 using NinoBank.Application.Users.Commands.Register;
+using NinoBank.Application.Users.Queries.Get;
 using NinoBank.Application.Users.Queries.Login;
 using NinoBank.WebApi.Extensions;
 using NinoBank.WebApi.Models;
@@ -83,11 +84,11 @@ namespace NinoBank.WebApi.Controllers
         }
 
         /// <summary>
-        /// Login a
+        /// Login a User
         /// </summary>
         /// <param name="model">The login details including username and password.</param>
         /// <returns>
-        /// If successful, an IActionResult containing a JWT token for authorization in subsequent requests.
+        /// If successful, JWT token for authorization in subsequent requests.
         /// If failed, an IActionResult containing the error reason.
         /// </returns>
         [HttpPost]
@@ -95,6 +96,30 @@ namespace NinoBank.WebApi.Controllers
         public async Task<IActionResult> Login([FromBody]LoginModel model)
         {
             var query = _mapper.Map<LoginQuery>(model);
+
+            var result = await _mediator.Send(query);
+
+            return StatusCode(result.OperationResult.ToHttpStatusCode(), result.IsSuccess ? result.Value : result.FailureReason);
+        }
+
+        /// <summary>
+        /// Get information for currently authenticated User
+        /// </summary>
+        /// <remarks>
+        /// Gets User with all its information, including transactions
+        /// </remarks>
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> GetUserInformation()
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out var userId))
+            {
+                return Unauthorized("Unable to identify the authenticated user.");
+            }
+
+            var query = new GetUserQuery { Id = userId };
 
             var result = await _mediator.Send(query);
 
